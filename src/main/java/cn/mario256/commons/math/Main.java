@@ -1,5 +1,8 @@
 package cn.mario256.commons.math;
 
+import com.google.common.math.IntMath;
+import org.junit.Test;
+
 /**
  * Guava Math showcase
  * <p>
@@ -7,8 +10,10 @@ package cn.mario256.commons.math;
  */
 public class Main {
 
-    public void main(){
-
+    @Test
+    public void forze(){
+        System.out.println(IntMath.checkedAdd(100, 100));           //fast-fail if stack overflow
+        System.out.println(IntMath.pow(2, 3));
     }
 
 }
