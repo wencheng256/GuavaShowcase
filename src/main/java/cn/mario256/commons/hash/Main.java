@@ -16,7 +16,7 @@ import org.junit.Test;
 public class Main {
 
     public void init(){
-
+        //NOTHING
     }
 
     @Test
